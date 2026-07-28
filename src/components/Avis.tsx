@@ -5,7 +5,7 @@ const AVIS = [
     auteur: 'Muriel Etchegoyhen',
     note: 5,
     texte: "Besoin de conseil, j'ai contacté Me Beis, très pro et très à l'écoute — elle a su me conseiller, et de ce fait je l'ai recontactée pour mon dossier, toujours autant à l'écoute, sans jugement. À ce jour elle est devenue mon avocate et j'ai une entière confiance en elle. Merci pour sa présence et son professionnalisme.",
-    date: 'Février 2025',
+    date: 'Février 2026',
   },
   {
     auteur: 'Cédric Dupiol',
