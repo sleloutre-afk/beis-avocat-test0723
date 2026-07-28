@@ -5,6 +5,7 @@ import Cabinet from '@/components/Cabinet'
 import Domaines from '@/components/Domaines'
 import Citation from '@/components/Citation'
 import Honoraires from '@/components/Honoraires'
+import Avis from '@/components/Avis'
 import Ressources from '@/components/Ressources'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
@@ -19,6 +20,7 @@ export default function Home() {
       <Domaines />
       <Citation />
       <Honoraires />
+      <Avis />
       <Ressources />
       <Contact />
       <Footer />
