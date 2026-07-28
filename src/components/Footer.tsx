@@ -43,7 +43,7 @@ export default function Footer() {
               8 rue du Maréchal de Lattre de Tassigny<br />33430 Bazas
             </p>
             <a href="tel:+33556651817" style={{ fontSize: '0.82rem', color: 'rgba(241,240,238,0.55)', textDecoration: 'none', display: 'block', marginBottom: '0.4rem' }}>05 56 65 18 17</a>
-            <a href="mailto:contact@beis-avocate.fr" style={{ fontSize: '0.82rem', color: 'rgba(241,240,238,0.55)', textDecoration: 'none', display: 'block', marginBottom: '1.5rem' }}>contact@beis-avocate.fr</a>
+            <a href="mailto:beis.avocat@gmail.com" style={{ fontSize: '0.82rem', color: 'rgba(241,240,238,0.55)', textDecoration: 'none', display: 'block', marginBottom: '1.5rem' }}>beis.avocat@gmail.com</a>
             <a href={RDV_URL} target="_blank" rel="noopener noreferrer" style={{
               display: 'inline-flex', alignItems: 'center',
               border: '1px solid rgba(241,240,238,0.20)', color: 'rgba(241,240,238,0.65)',
