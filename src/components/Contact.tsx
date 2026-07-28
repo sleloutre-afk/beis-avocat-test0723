@@ -56,7 +56,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p style={{ fontSize: '0.55rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(42,45,53,0.40)', marginBottom: '0.4rem' }}>Email</p>
-                  <a href="mailto:contact@beis-avocate.fr" style={{ fontSize: '0.92rem', color: '#2a2d35', textDecoration: 'none' }}>contact@beis-avocate.fr</a>
+                  <a href="mailto:beis.avocat@gmail.com" style={{ fontSize: '0.92rem', color: '#2a2d35', textDecoration: 'none' }}>beis.avocat@gmail.com</a>
                 </div>
               </div>
 
