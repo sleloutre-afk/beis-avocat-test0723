@@ -7,7 +7,7 @@ export default function Contact() {
     <section id="contact" style={{ padding: '7rem 0', background: '#f1f0ee' }}>
       <div className="max-w-6xl mx-auto px-6">
 
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'start' }}>
+        <div className="grid-2col" style={{ gap: '4rem', alignItems: 'start' }}>
 
           {/* Coordonnées */}
           <div>
