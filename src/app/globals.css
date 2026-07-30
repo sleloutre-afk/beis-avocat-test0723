@@ -47,5 +47,22 @@ body {
 .gap-5     { gap: 1.25rem; }
 .gap-6     { gap: 1.5rem; }
 .block     { display: block; }
-.md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+/* Responsive grid utilities — mobile-first */
+.md\:grid-cols-3 { grid-template-columns: 1fr; }
+.md\:grid-cols-2 { grid-template-columns: 1fr; }
+.grid-2col       { display: grid; grid-template-columns: 1fr; }
+.stats-grid      { display: grid; grid-template-columns: 1fr; }
+.grid-footer     { display: grid; grid-template-columns: 1fr; }
+
+@media (min-width: 768px) {
+  .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .grid-2col       { grid-template-columns: 1fr 1fr; }
+  .stats-grid      { grid-template-columns: repeat(4, 1fr); }
+  .grid-footer     { grid-template-columns: 1.5fr 1fr 1fr; }
+}
+
+.stat-sep { border-right: 1px solid #d4cfc8; }
+@media (max-width: 767px) {
+  .stat-sep { border-right: none; border-bottom: 1px solid #d4cfc8; }
+}
